@@ -6,6 +6,7 @@ console.log(typeof new Function());// function
 console.log(typeof new Array());	 //object
 console.log(typeof new Date());	 // object
 
+
 //2.函数对象的属性及方法
 //(1)length 表示输出函数的形参的个数 arguments.length 表示输出函数实参的个数
 function checkVarCount(a, b) {
