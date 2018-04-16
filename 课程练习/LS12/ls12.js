@@ -80,7 +80,7 @@
     bar(10); //15 2
     bar(10); //15 3
     //②以对象形式返回
-        function counter() {
+        function counter() { //形成四个闭包
             var n = 0;
             return {
                 count:function () {return ++n;},
