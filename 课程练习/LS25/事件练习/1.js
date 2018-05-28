@@ -40,3 +40,9 @@
     div2.addEventListener("click",clickHandler);
     document.addEventListener("click",clickHandler);
     window.addEventListener("click",clickHandler);
+    div1.removeEventListener("click",clickHandler);//删除事件
+  
+    //DOM0级和DOM2级可以添加多个事件处理程序
+//4.IE事件处理程序
+    //attachEvent("onclick",clickHandler)添加事件 参数只能是两个
+    //detachEvent("onclick",clickHandler)删除事件
