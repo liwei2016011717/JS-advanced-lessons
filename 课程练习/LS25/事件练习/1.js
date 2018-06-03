@@ -46,3 +46,4 @@
 //4.IE事件处理程序
     //attachEvent("onclick",clickHandler)添加事件 参数只能是两个
     //detachEvent("onclick",clickHandler)删除事件
+
