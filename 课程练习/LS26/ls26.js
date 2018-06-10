@@ -131,3 +131,9 @@ http.createServer(function (req, res) {
 
 }).listen(8080,"127.0.0.1");
 console.log("start server!");
+
+const a=[];
+a.push(1);
+
+const obj={x:1};
+obj.x=2;
